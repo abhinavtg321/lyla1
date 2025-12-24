@@ -1,7 +1,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8377644176:AAHrQW4Rpb05e87ycEwVag-OvTVBnsngE-0")
 
 def start(update, context):
     update.message.reply_text("Hello! I am your group management bot.")
